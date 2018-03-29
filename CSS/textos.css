@@ -1,0 +1,58 @@
+
+/*Font-Family*/
+body{
+font-family: arial,helvetica,serif;
+}
+h2{
+  /*font-family:verdana,Geneva,sans-serif;
+  font-size: 30px;
+  /*font-size: 3rem;
+  font-size:4em;*/
+/*  font-style: italic;
+  text-transform: uppercase;
+  font-weight: normal;*/
+  font: italic small-caps normal 30px/30px Verdana;
+  text-align: center;
+  letter-spacing: 2px;
+}
+h3{
+  font-family: Algerian,se,'Times New Roman', serif;
+  font-size: 22px;
+  font-weight:lighter;
+}
+p{
+  font-family:Gevena,helvetica,sans-serif;
+  font-size: 18px;
+  text-transform: capitalize;
+  line-height: 20px;
+  text-align: justify;
+}
+a{
+  font-size:14px;
+  text-decoration: none;
+}
+section#introduccion p  {
+
+  font-variant: small-caps;
+
+}
+
+section#introduccion p span {
+  font-style: italic;
+  font-variant: small-caps;
+  text-decoration: underline;
+  font-weight: bold;
+}
+#listado-cursos li {
+  text-transform:lowercase;
+}
+#listado-cursos li em {
+  font-style: normal;
+}
+div.noticia p{
+  text-indent: 100px;
+  color: orange;
+}
+p.oferta span{
+  text-decoration: line-through;
+}
